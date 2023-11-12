@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 export const booksListSlice = createSlice({
     name: 'booksList',
     initialState: {
-        page: 0,
+        page: 1,
         books: [],
         isLoading: false,
     },
